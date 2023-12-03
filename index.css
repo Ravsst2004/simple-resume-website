@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.profile img {
+    width: 100%;
+    height: 100%; 
+    display: block;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+}
+main {
+    margin-top: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h4 {
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+p {
+    color: #555;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+.contact button {
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+.contact button:hover {
+    border: 1px solid #007BFF;
+    background-color: white;
+}
